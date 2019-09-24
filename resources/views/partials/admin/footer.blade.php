@@ -4,7 +4,7 @@
     <div class="pull-right hidden-xs">
         <b>{{ trans('footer.version') }}</b> {{ version('short') }}
     </div>
-    <strong>{{ trans('footer.powered') }}</strong>: <a href="{{ trans('footer.link') }}" target="_blank">{{ trans('footer.software') }}</a>
+    <strong>Powered by : <a href="https://fazrin.cf">M.F.M Fazrin</a></strong>
 </footer>
 
 @stack('footer_end')

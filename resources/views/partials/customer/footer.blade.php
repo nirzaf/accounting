@@ -1,7 +1,7 @@
 @stack('footer_start')
 
 <footer class="main-footer">
-    <strong>{{ trans('footer.powered') }}</strong>: <a href="{{ trans('footer.link') }}">{{ trans('footer.software') }}</a>
+    <strong>Powered by : <a href="https://fazrin.cf">M.F.M Fazrin</a></strong>
 </footer>
 
 @stack('footer_end')

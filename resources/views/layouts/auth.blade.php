@@ -26,7 +26,7 @@
             <!-- /.login-box-body -->
 
             <div class="login-box-footer">
-                {{ trans('footer.powered') }}: <a href="{{ trans('footer.link') }}" target="_blank">{{ trans('footer.software') }}</a>
+                 <strong>Powered by : <a href="https://fazrin.cf">M.F.M Fazrin</a></strong>
             </div>
             <!-- /.login-box-footer -->
 
