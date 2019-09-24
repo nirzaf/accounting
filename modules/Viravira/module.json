@@ -1,0 +1,19 @@
+{
+    "name": "Viravira",
+    "alias": "viravira",
+    "description": "",
+    "version": "1.0.0",
+    "category": "ecommerce",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Viravira\\Providers\\ViraviraServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": [],
+    "settings": []
+}

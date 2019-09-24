@@ -144,24 +144,7 @@
                 </li>
                 @endpermission
                 <!-- Tasks: style can be found in dropdown.less -->
-
-                @permission('read-install-updates')
                 <!-- Updates: style can be found in dropdown.less -->
-                <li>
-                    <a href="{{ url('install/updates') }}" data-toggle="tooltip" data-placement="bottom" title="{{ $updates }} Updates Available">
-                        <i class="fa fa-refresh"></i>
-                        @if ($updates)
-                        <span class="label label-danger">{{ $updates }}</span>
-                        @endif
-                    </a>
-                </li>
-                @endpermission
-                <!-- Updates: style can be found in dropdown.less -->
-                <li class="hidden-xs">
-                    <a href="{{ url(trans('header.docs_link')) }}" target="_blank" title="{{ trans('general.help') }}">
-                        <i class="fa fa-life-ring"></i>
-                    </a>
-                </li>
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
