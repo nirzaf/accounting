@@ -42,8 +42,9 @@ class Accounts extends Seeder
 
         foreach ($rows as $row) {
             $account = Account::create($row);
-
-            setting()->set('general.default_account', $account->id);
+            if (!empty($account->id)) {
+                setting()->set('general.default_account', $account->id);
+            }
         }
     }
 }
