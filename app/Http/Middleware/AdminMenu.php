@@ -193,14 +193,14 @@ class AdminMenu
             }
 
             // Apps
-            if ($user->can('read-modules-home')) {
-                $menu->add([
-                    'url' => 'apps/home',
-                    'title' => trans_choice('general.modules', 2),
-                    'icon' => 'fa fa-rocket',
-                    'order' => 8,
-                ]);
-            }
+            // if ($user->can('read-modules-home')) {
+            //     $menu->add([
+            //         'url' => 'apps/home',
+            //         'title' => trans_choice('general.modules', 2),
+            //         'icon' => 'fa fa-rocket',
+            //         'order' => 8,
+            //     ]);
+            // }
 
             // Fire the event to extend the menu
             event(new AdminMenuCreated($menu));
